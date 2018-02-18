@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+<head>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <title> <?php $this->getPageTitle(); ?>  </title>
+</head>
+
+<body>
+    <?php require_once __DIR__ . "/menu.phtml"; ?>
+    <?php $this->content(); ?>
+
+    <footer>blog</footer>
+</body>
+
+</html>
